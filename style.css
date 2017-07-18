@@ -1,360 +1,348 @@
   * {
-  box-sizing: border-box;
-  font-family: "Open Sans", sans-serif;
-  font-weight: 300;
-}
-
-body {
-  min-height: 100vh;
-  display: flex;
-  font-size: 15px;
-}
-
-header {
-  width: 66.66666%;
-  height: 33.33333%;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-  padding: 25px 25px 50px;
-  background-image: url('images/dark-jean.jpg');
-  color: #FFFFFF;
-}
-
-h1 {
-  margin: 0;
-  padding: 0;
-  font-size: 50px;
-  font-weight: 800;
-  letter-spacing: 4px;
-  ;
-}
-
-.header-content {
-  font-size: 30px;
-  padding: 0;
-  margin: 0;
-  font-weight: 400;
-}
-
-button {
-  width: 300px;
-  height: 30px;
-  font-size: 20px;
-  font-weight: 400;
-  color: #FFF;
-  background-repeat: no-repeat;
-  background-size: 20px;
-  border: 3px solid #FDFFFC;
-  background: none;
-  ;
-}
-
-.mail, .donate {
-  margin-right: 10px;
-  margin-top: 30px;
-  width: 40%;
-  height: 40px;
-  background-image: url(images/phone-call.svg);
-  background-repeat: no-repeat;
-  background-position: 15px;
-  background-size: 20px;
-}
-
-.donate {
-  background-image: url(images/dollar-coin-stack.svg);
-}
-
-img {
-  padding-top: 30px;
-}
-
-.box-container {
-  width: 60%;
-  display: flex;
-  flex-wrap: wrap;
-}
-
-h2 {
-  font-size: 15px;
-  font-weight: 800;
-  margin: 0;
-  margin-top: 10px;
-}
-
-.box {
-  width: 33.33333%;
-  height: 33.33333%;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  text-align: center;
-  color: #FFF;
-  padding-bottom: 5px;
-}
-
-.box-content {
-  display: flex;
-  flex-direction: column;
-}
-
-#box7 {
-  background-color: #8FC1FF;
-}
-
-#box6 {
-  background-image: url('images/leather.jpg');
-  background-size: cover;
-}
-
-#box5 {
-  background-color: #D03E32;
-}
-
-#box4 {
-  background-image: url('images/dark-jean.jpg');
-}
-
-#box3 {
-  background-color: #Ffc61e;
-}
-
-#box2 {
-  background-image: url('images/leather.jpg');
-}
-
-#box1 {
-  background-color: #8FC1FF;
-}
-
-.image {
-  position: relative;
-  width: 40%;
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  background-image: url('images/woody-leather.png');
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: center;
-}
-
-.more {
-  width: 40px;
-  height: 40px;
-  position: absolute;
-  top: 10px;
-  right: 20px;
-  border: none;
-  background: none;
-  background-image: url('images/more.svg');
-  background-repeat: no-repeat;
-  background-size: cover;
-}
-
-.button-container {
-  width: 100%;
-  height: 100px;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  margin: 0 5px;
-}
-
-.left-arrow {
-  width: 35px;
-  height: 35px;
-  margin-left: 10px;
-  border: none;
-  background: none;
-  background-image: url('images/left-arrow.svg');
-  background-repeat: no-repeat;
-  background-position: 35%;
-  background-size: contain;
-}
-
-.right-arrow {
-  width: 35px;
-  height: 35px;
-  margin-right: 10px;
-  border: none;
-  background: none;
-  background-image: url('images/right-arrow.svg');
-  background-repeat: no-repeat;
-  background-position: 35%;
-  background-size: contain;
-}
-
-
-/*MEDIA QUERIES*/
-
-@media screen and (max-width: 1400px) {
-  h1 {
-    font-size: 40px;
-    padding-top: 20px;
+    box-sizing: border-box;
+    font-family: "Open Sans", sans-serif;
+    font-weight: 300;
   }
-  .header-content {
-    font-size: 20px;
-  }
-  button {
-    width: 175px;
-    font-size: 20px;
-  }
-  .mail {
-    background-position: 10px;
-  }
-  .donate {
-    background-position: 15px;
-  }
-  h2 {
-    font-size: 23px;
-    padding-bottom: 20px;
-  }
-}
 
-@media screen and (max-width: 1200px) {
   body {
-    flex-direction: column-reverse;
+    min-height: 100vh;
+    display: flex;
+    font-size: 15px;
   }
-  .image {
-    background-image: url('images/woody-lay-jean.png');
-    background-size: cover;
-  }
-  .box-container {
-    width: 100%;
-  }
-  header {
-    width: 100%;
-    height: 50vh;
-    justify-content: center;
-    align-content: center;
-    text-align: center;
-    background-image: url('images/leather.jpg');
-    background-size: cover;
-  }
-  .header-content {
-    font-size: 30px;
-  }
-  .box {
-    width: 50%;
-  }
-  #box6 {
-    background-image: url('images/dark-jean.jpg');
-    background-size: cover;
-  }
-  #box4 {
-    background-image: url('images/leather.jpg');
-  }
-  #box2 {
-    background-image: url('images/dark-jean.jpg');
-  }
-  .image {
-    height: 50vh;
-    width: 100%;
-    background-size: cover;
-    padding: 30px
-  }
-  .donate, .mail {
-    width: 300px;
-    margin: 30px 10px 40px 10px;
-    padding: 10px 5px 35px 5px;
-    background-position: 50px;
-    background-size: 30px;
-    font-size: 25px;
-  }
-  #box7 {
-    width: 100%;
-  }
-}
 
-@media screen and (max-width: 800px) {
-  h1 {
-    font-size: 60px;
-  }
-  .image {
-    background-image: url('images/woody-lay-jean.png');
-    background-size: cover;
-  }
   header {
-    width: 100%;
+    width: 66.66666%;
+    height: 33.33333%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 25px 25px 50px;
+    background-image: url('images/dark-jean.jpg');
+    color: #FFFFFF;
   }
+
+  h1 {
+    margin: 0;
+    padding: 0;
+    font-size: 50px;
+    font-weight: 800;
+    letter-spacing: 4px;
+  }
+
   .header-content {
     font-size: 30px;
+    padding: 0;
+    margin: 0;
+    font-weight: 400;
   }
-  .donate, .mail {
-    width: 200px;
-    padding: 10px 5px 10px 5px;
-    margin: 20px 10px 20px 10px;
-    font-size: 22px;
-    background-position: 20px;
-    background-size: 25px;
+
+  button {
+    width: 300px;
+    height: 30px;
+    font-size: 20px;
+    font-weight: 400;
+    color: #FFF;
+    background-repeat: no-repeat;
+    background-size: 20px;
+    border: 3px solid #FDFFFC;
+    background: none;
   }
-  @media screen and (max-width: 600px) {
-    .image {
-      background-image: url('images/woody-lay-jean.png');
-      background-size: cover;
-    }
-    header {
-      display: flex;
-      flex-direction: column;
-      justify-content: space-around;
-    }
+
+  .mail, .donate {
+    margin-right: 10px;
+    margin-top: 30px;
+    width: 45%;
+    height: 40px;
+    background-image: url(images/phone-call.svg);
+    background-repeat: no-repeat;
+    background-position: 15px;
+    background-size: 20px;
+  }
+
+  .donate {
+    background-image: url(images/dollar-coin-stack.svg);
+  }
+
+  img {
+    padding-top: 30px;
+  }
+
+  .box-container {
+    width: 60%;
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  h2 {
+    font-size: 15px;
+    font-weight: 800;
+    margin: 0;
+    margin-top: 10px;
+  }
+
+  .box {
+    width: 33.33333%;
+    height: 33.33333%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: #FFF;
+    padding-bottom: 5px;
+  }
+
+  .box-content {
+    display: flex;
+    flex-direction: column;
+  }
+
+  #box7 {
+    background-color: #8FC1FF;
+  }
+
+  #box6 {
+    background-image: url('images/leather.jpg');
+    background-size: cover;
+  }
+
+  #box5 {
+    background-color: #D03E32;
+  }
+
+  #box4 {
+    background-image: url('images/dark-jean.jpg');
+  }
+
+  #box3 {
+    background-color: #Ffc61e;
+  }
+
+  #box2 {
+    background-image: url('images/leather.jpg');
+  }
+
+  #box1 {
+    background-color: #8FC1FF;
+  }
+
+  .image {
+    position: relative;
+    width: 40%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    background-image: url('images/woody-leather.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+
+  .more {
+    width: 40px;
+    height: 40px;
+    position: absolute;
+    top: 10px;
+    right: 20px;
+    border: none;
+    background: none;
+    background-image: url('images/more.svg');
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+  .button-container {
+    width: 100%;
+    height: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 5px;
+  }
+
+  .left-arrow {
+    width: 35px;
+    height: 35px;
+    margin-left: 10px;
+    border: none;
+    background: none;
+    background-image: url('images/left-arrow.svg');
+    background-repeat: no-repeat;
+    background-position: 35%;
+    background-size: contain;
+  }
+
+  .right-arrow {
+    width: 35px;
+    height: 35px;
+    margin-right: 10px;
+    border: none;
+    background: none;
+    background-image: url('images/right-arrow.svg');
+    background-repeat: no-repeat;
+    background-position: 35%;
+    background-size: contain;
+  }
+  /*MEDIA QUERIES*/
+
+  @media screen and (max-width: 1400px) {
     h1 {
       font-size: 45px;
+      padding-top: 20px;
     }
     .header-content {
-      padding: 25px 0;
-      font-size: 20px;
-    }
-    .top-container {
-      display: flex;
-      margin: auto;
-    }
-    .mail {
-      width: 150px;
-      background-size: 15px;
-      font-size: 15px;
-    }
-    .donate {
-      width: 150px;
-      background-size: 15px;
-      font-size: 15px;
-    }
-    .box7 {
-      width: 100%;
-    }
-    h2 {
       font-size: 25px;
     }
-    .text {
-      font-size: 20px;
+    @media screen and (max-width: 1200px) {
+      body {
+        flex-direction: column-reverse;
+      }
+      h1 {
+        font-size: 70px;
+      }
+      .image {
+        background-image: url('images/woody-lay-jean.png');
+        background-size: cover;
+      }
+      .box-container {
+        width: 100%;
+      }
+      header {
+        width: 100%;
+        height: 50vh;
+        justify-content: center;
+        align-content: center;
+        text-align: center;
+        background-image: url('images/leather.jpg');
+        background-size: cover;
+      }
+      .header-content {
+        font-size: 40px;
+      }
+      .box {
+        width: 50%;
+      }
+      #box6 {
+        background-image: url('images/dark-jean.jpg');
+        background-size: cover;
+      }
+      #box4 {
+        background-image: url('images/leather.jpg');
+      }
+      #box2 {
+        background-image: url('images/dark-jean.jpg');
+      }
+      .image {
+        height: 50vh;
+        width: 100%;
+        background-size: cover;
+        padding: 30px
+      }
+      .donate, .mail {
+        width: 300px;
+        margin: 30px 10px 40px 10px;
+        padding: 10px 5px 35px 5px;
+        background-position: 50px;
+        background-size: 30px;
+        font-size: 25px;
+      }
+      #box7 {
+        width: 100%;
+      }
     }
-    a {
-      font-size: 20px;
-    }
-  }
-  @media screen and (max-width: 450px) {
-    header {
-      padding: 25px;
-    }
-    h1 {
-      font-size: 30px;
-    }
-    .header-content {
-      font-size: 20px;
-    }
-    .mail, .donate {
-      width: 100px;
-      background-size: 12px;
-      font-size: 12px;
-    }
-    h2 {
-      font-size: 25px;
-    }
-    a {
-      font-size: 16px;
-    }
-  }
-  .box {
-    width: 100%;
-  }
+
+    @media screen and (max-width: 800px) {
+      h1 {
+        font-size: 50px;
+      }
+      .image {
+        background-image: url('images/woody-lay-jean.png');
+        background-size: cover;
+      }
+      header {
+        width: 100%;
+      }
+      .header-content {
+        font-size: 30px;
+      }
+      button {
+        display: flex;
+        display: inline-block;
+        align-content: center;
+        justify-content: center;
+      }
+      .donate, .mail {
+        width: 225px;
+        padding: 10px 5px px 5px;
+        margin: 20px 10px 20px 10px;
+        font-size: 22px;
+        background-position: 20px;
+        background-size: 25px;
+      }
+
+      @media screen and (max-width: 600px) {
+        h1 {
+          font-size: 40px;
+        }
+        .image {
+          background-image: url('images/woody-lay-jean.png');
+          background-size: cover;
+        }
+        header {
+          width: 100%;
+        }
+        .header-content {
+          font-size: 25px;
+        }
+        button {
+          display: flex;
+          display: inline-block;
+          align-content: center;
+          justify-content: center;
+        }
+        .donate, .mail {
+          width: 175px;
+          padding: 10px 5px px 5px;
+          margin: 20px 10px 20px 10px;
+          font-size: 22px;
+          background-position: 20px;
+          background-size: 25px;
+          background-image: none;
+        }
+
+        .box {
+          width: 100%;
+        }
+
+        @media screen and (max-width: 450px) {
+          h1 {
+            font-size: 31px;
+          }
+          .image {
+            background-image: url('images/woody-lay-jean.png');
+            background-size: cover;
+          }
+          header {
+            width: 100%;
+          }
+          .header-content {
+            font-size: 20px;
+          }
+          button {
+            display: flex;
+            display: inline-block;
+            align-content: center;
+            justify-content: center;
+          }
+          .donate, .mail {
+            width: 150px;
+            padding: 5px;
+            margin: 20px 10px 20px 10px;
+            font-size: 20px;
+            background-position: 20px;
+            background-size: 25px;
+            background-image: none;
+          }
+
+          .box {
+            width: 100%;
+          }
