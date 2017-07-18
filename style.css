@@ -156,8 +156,8 @@ a {
   flex-direction: row;
   align-items: center;
   background-color: #1560BD;
-  background-image: url('images/woody-no-back.png');
-  background-size: contain;
+  background-image: url('images/woody-dark-jean.png');
+  background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
 
