@@ -309,6 +309,10 @@
           background-image: none;
         }
 
+        .box {
+          width: 100%;
+        }
+
         @media screen and (max-width: 450px) {
           h1 {
             font-size: 31px;
@@ -337,4 +341,8 @@
             background-position: 20px;
             background-size: 25px;
             background-image: none;
+          }
+
+          .box {
+            width: 100%;
           }
