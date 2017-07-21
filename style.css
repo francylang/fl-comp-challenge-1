@@ -37,22 +37,18 @@
   }
 
   button {
-    width: 300px;
-    height: 30px;
     font-size: 20px;
     font-weight: 400;
     color: #FFF;
-    background-repeat: no-repeat;
-    background-size: 20px;
     border: 3px solid #FDFFFC;
     background: none;
-  }
-
-  .mail, .donate {
     margin-right: 10px;
     margin-top: 30px;
     width: 45%;
     height: 40px;
+  }
+
+  .mail, .donate {
     background-image: url(images/phone-call.svg);
     background-repeat: no-repeat;
     background-position: 15px;
@@ -73,13 +69,6 @@
     flex-wrap: wrap;
   }
 
-  h2 {
-    font-size: 15px;
-    font-weight: 800;
-    margin: 0;
-    margin-top: 10px;
-  }
-
   .box {
     width: 33.33333%;
     height: 33.33333%;
@@ -96,13 +85,19 @@
     flex-direction: column;
   }
 
+    h2 {
+      font-size: 15px;
+      font-weight: 800;
+      margin: 0;
+      margin-top: 10px;
+    }
+
   #box7 {
     background-color: #8FC1FF;
   }
 
   #box6 {
     background-image: url('images/leather.jpg');
-    background-size: cover;
   }
 
   #box5 {
@@ -184,7 +179,7 @@
   }
   /*MEDIA QUERIES*/
 
-  @media screen and (max-width: 1400px) {
+    @media screen and (max-width: 1400px) {
     h1 {
       font-size: 45px;
       padding-top: 20px;
@@ -342,7 +337,7 @@
             background-size: 25px;
             background-image: none;
           }
-
+          
           .box {
             width: 100%;
           }
